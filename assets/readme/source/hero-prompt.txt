@@ -1,0 +1,7 @@
+Use case: stylized-concept
+Asset type: matched-background material layer for a GitHub README hero, landscape 1200:640 aspect ratio.
+Primary request: a tactile, sophisticated visual metaphor for an art-direction skill that turns references into a style proof and then a reusable visual system.
+Scene: seamless warm ivory #f5f3ef studio backdrop. Three large thin frosted semi-translucent acrylic sheets overlap diagonally on the RIGHT HALF, like physical artboards being distilled from back to front. The panels are abstract material specimens, NOT an app screenshot. Their soft translucent bodies catch muted lilac and warm apricot refractions; a little fine etched grain, beautiful milky diffusion, delicate polished edges, subtle soft shadows. Each successive sheet becomes calmer and clearer, expressing visual refinement. Subtle rounded corners. Quiet editorial art direction, close-up material photography / photoreal 3D, not sci-fi.
+Composition: left 52 percent is almost empty uninterrupted warm ivory for later exact typography. All three panels fit comfortably within right 48 percent, staggered from upper right to lower center right. Soft light upper left; no high contrast or dark shapes.
+Palette: warm ivory #f5f3ef, muted lilac #cbbce8, pale apricot #edc6ad, desaturated plum-gray. Restrained saturation.
+Text: absolutely no text, no letters, no numbers, no logos, no interface controls, no watermark. Do not render any title; all typography is added separately in SVG.

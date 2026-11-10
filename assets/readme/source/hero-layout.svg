@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
+<title id="title">Soft Tech Art Director — 从产品概念到可复用的视觉语言</title>
+<desc id="desc">磨砂叠层代表参考、样张和视觉规则；概念插画，不是实际产品截图。</desc>
+<defs><clipPath id="canvas"><rect width="1200" height="640" rx="28"/></clipPath><linearGradient id="wash"><stop stop-color="#f5f3ef"/><stop offset=".47" stop-color="#f5f3ef" stop-opacity=".96"/><stop offset=".67" stop-color="#f5f3ef" stop-opacity="0"/></linearGradient></defs>
+<g clip-path="url(#canvas)">
+<rect width="1200" height="640" fill="#f5f3ef"/>
+<image id="material-layer" href="hero-subject.png" width="1200" height="640" preserveAspectRatio="xMidYMid slice"/>
+<rect width="1200" height="640" fill="url(#wash)"/>
+<g id="title-block" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,sans-serif" fill="#292638">
+<text x="64" y="83" font-size="19" letter-spacing="3" fill="#716684">A CONVERSATIONAL DESIGN SKILL</text>
+<text x="60" y="178" font-size="76" font-weight="650" letter-spacing="-3">Soft Tech</text>
+<text x="60" y="264" font-size="76" font-weight="650" letter-spacing="-3">Art Director</text>
+<text x="64" y="329" font-size="30">把模糊的偏好，变成清晰的视觉语言。</text>
+<text x="64" y="377" font-size="21" fill="#655f74">产品定位 · 参考分工 · 样张验证 · 风格锁定</text>
+<path d="M64 430H548" stroke="#d4ccd9"/>
+<text x="64" y="476" font-size="20" fill="#716684">SOFT PERCEPTION × PRECISE COMPUTATION</text>
+<text x="64" y="581" font-size="18" fill="#716684">v1.0 / 8 STYLE FAMILIES / 6 STAGES</text>
+</g>
+<g id="reference-proof-system" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" fill="#443c59" font-size="20" letter-spacing="2">
+<rect x="815" y="146" width="253" height="52" rx="26" fill="#ffffff" fill-opacity=".72" stroke="#ffffff" stroke-opacity=".9"/><text x="843" y="179">01 / REFERENCES</text>
+<rect x="756" y="315" width="252" height="52" rx="26" fill="#ffffff" fill-opacity=".72" stroke="#ffffff" stroke-opacity=".9"/><text x="787" y="348">02 / STYLE PROOF</text>
+<rect x="699" y="488" width="264" height="52" rx="26" fill="#ffffff" fill-opacity=".72" stroke="#ffffff" stroke-opacity=".9"/><text x="732" y="521">03 / VISUAL RULES</text>
+</g></g></svg>
