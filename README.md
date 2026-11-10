@@ -59,9 +59,36 @@ Soft Tech 在这里意味着 **柔和的感知表达 × 精确的计算结构**�
 
 ## 快速开始
 
-### 1 · 安装到个人 Skill 目录
+### 1 · 选择安装方式
 
-以下方式用于 Codex 的本地 Skill 发现。需要 Git；如果同名目录已经存在，请先检查现有版本。
+#### 通用安装（推荐）
+
+已安装 Node.js 与 npm 的用户，可以通过 [Skills CLI](https://github.com/vercel-labs/skills/blob/main/docs/commands.md) 安装，无需手动选择克隆目录：
+
+```bash
+npx skills add Stanley-baby/soft-tech-art-director
+```
+
+按照交互提示选择目标工具与安装范围。此方式支持 Skills CLI 已适配的工具；不同工具的生图、检索和文件操作能力仍取决于各自环境。
+
+只安装到 Codex 的个人目录、供各项目使用：
+
+```bash
+npx skills add Stanley-baby/soft-tech-art-director --skill soft-tech-art-director --agent codex --global
+```
+
+不加 `--global` 时安装到当前项目。只想确认仓库里有哪些 Skill，可以先运行：
+
+```bash
+npx skills add Stanley-baby/soft-tech-art-director --list
+```
+
+这使用的是第三方 Skills CLI，不代表本仓库已经上架任何插件市场。
+
+<details>
+<summary>手动安装到 Codex（保留原方式）</summary>
+
+需要 Git；如果同名目录已经存在，请先检查现有版本。
 
 ```bash
 mkdir -p "$HOME/.agents/skills"
@@ -69,7 +96,9 @@ git clone https://github.com/Stanley-baby/soft-tech-art-director.git \
   "$HOME/.agents/skills/soft-tech-art-director"
 ```
 
-目录位置与调用方式参见 [OpenAI 官方 Skill 文档](https://learn.chatgpt.com/docs/build-skills)。这是一个独立 Skill 仓库，不是已提交到插件目录的插件。
+目录位置与调用方式参见 [OpenAI 官方 Skill 文档](https://learn.chatgpt.com/docs/build-skills)。
+
+</details>
 
 ### 2 · 用一个具体产品开始
 
@@ -116,6 +145,27 @@ AI 的作用：理解兴趣、地点和可用时间，生成可以调整的计�
 | [Poetic Intelligence · 诗性智能](./assets/style-cards/06-poetic-intelligence.png) | 旅行、文化、地点、记忆与叙事 |
 | [Quiet Gradient Intelligence · 静谧渐变智能](./assets/style-cards/07-quiet-gradient-intelligence.png) | 后台复杂计算与前景平静清晰的 AI 服务 |
 | [Dark Signal Intelligence · 暗场信号智能](./assets/style-cards/08-dark-signal-intelligence.png) | 实时监测、风险、状态变化与异常信号 |
+
+## 原始 ZIP 备份
+
+[v1.0 原始文件备份](https://github.com/Stanley-baby/soft-tech-art-director/releases/tag/source-v1.0) 保存用户提供的源文件压缩包，**原样上传，没有重新打包**。包内 21 个技能文件与首次发布的原始技能内容一致。
+
+- [下载原始 ZIP](https://github.com/Stanley-baby/soft-tech-art-director/releases/download/source-v1.0/Soft-Tech-Art-Director-v1.0.zip)
+- [下载 SHA-256 校验文件](https://github.com/Stanley-baby/soft-tech-art-director/releases/download/source-v1.0/SHA256SUMS.txt)
+
+原包的 SHA-256：
+
+```text
+847cbf94241142ae5ff148cfc409ada9cdab336050678f1dee42730a97f27b59
+```
+
+下载两个附件到同一目录后，可在 macOS 上核对文件是否完整：
+
+```bash
+shasum -a 256 -c SHA256SUMS.txt
+```
+
+原始 ZIP 用于归档，不含本仓库后来新增的 README 和展示素材。GitHub 自动提供的 **Source code (zip)** 是仓库快照，不是这份原始压缩包。日常安装请使用上面的仓库安装命令；备份放在 Release 附件中，不进入日常代码目录。
 
 ## 内容与工具
 
